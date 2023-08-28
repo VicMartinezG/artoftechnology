@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.espacio{
+	width: 100%;
+	height: 15%;
+}
+body{
+	display: block;
+	background-color: black;
+	width: 100%;
+	height: 3920px;
+}
+.header{
+	display: block;
+	width: 100%;
+	height: 980px;
+}
+.navegacion{
+	display: flex;
+	height: 15%;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: black;
+}
+#logo{
+	padding: 10px 0 10px 50px; 
+}
+.navegacion nav{
+	margin-left: auto;
+	margin-right: 20px;
+	display: flex;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+}
+a:hover{
+	color: #62BD19;
+}
+li:hover a{
+	transition: 300ms;
+	background-color: #62BD19;
+	color:white;
+}
+
+#carrito{
+	background-color: transparent;
+	border: none;
+	width: 50px;
+	height: 50px;
+	margin: 45px 35px 0 30px;
+}
+#carrito:hover{
+	transition: 300ms;
+    transform: scale(1.2);
+}
+#siderbar-button{
+	height: 60px;
+	margin: auto 0;
+}
+#rightMenu div{
+	width: 100%;
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border-top: 1.5px white dashed;
+	border-bottom: 1.5px white dashed;
+}
+#rightMenu a{
+	width: 100%;
+}
+
+/*PAGINA CASES*/
+
+.bodycategorias{
+	width: auto;
+	height: auto;
+}
+.headercategorias{
+	width: 100%;
+	height: 480px;
+	margin-bottom: 80px;
+}
+.navegacion nav{
+	margin-left: auto;
+	margin-right: 20px;
+	display: flex;
+}
+.bannercategorias{
+	background-image: url(imagenes/banner7.jpg);
+	height: 100%;
+	width: 90%;
+	background-size: cover;
+	margin: 0 auto 100px;
+
+}
+
+#perifericos{
+	height: 2600px;
+}
+
+/*PRODUCTOS*/
+.categorias{
+	height: 980px;
+	width: 100%;
+}
+.contenedor_categorias{
+	display: block;
+	width: 100%;
+	height: 85%;
+}
+.navegacion_categorias{
+	width: 90%;
+	height: 10%;
+	margin: 0 auto;
+	border: 5px solid #62BD19;
+}
+.navegacion_categorias ul{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.navegacion_categorias li{
+	margin: 0 15px;
+	line-height: 80px;
+}
+.navegacion_categorias a{
+	font-size: 15;
+}
+.contenedor_imagenes{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 80%;
+	grid-gap: 100px;
+	margin: auto;
+}
+.imagen{
+	position: relative;
+}
+.imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #62BD19;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	color: white;
+	border-radius: 10px;
+	transition: 300ms ;
+}
+.imagen:hover .overlay{
+	height: 100%;
+}
+.titulo_productos{
+	padding-top: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.texto_producto{
+	font-family: 'Sigmar One', cursive;
+	margin-left: 30px;
+	font-size: 15px;
+	margin-right: 30px;
+}
+
+/*FOOTER*/
+footer{
+	display: block;
+	background-image: url(imagenes/footer.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 980px;
+}
+.container-pie{
+	width: 100%;
+	height: 90%;
+	display: flex;
+}
+.importante-pie{
+	display: flex;
+	width: 80%;
+	height: 100%;
+}
+.columnas{
+	display: block;
+	text-align: center;
+	width: 20%;
+	margin: auto;
+}
+#columna2{
+	width: 15%;
+}
+.columnas a{
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+.columnas a:hover{
+	color: #62BD19;
+}
+.container-redes{
+	width: 20%;
+	height: 100%;
+}
+.redes{
+	display: block;
+	width: 100px;
+	margin: 220px auto 0;
+}
+footer img{
+	width: 80px;
+	height: 80px;
+	margin: 20px 0;
+}
+footer img:hover{
+	transition: 300ms;
+	transform: scale(1.3);
+}
+
+#columna4{
+	width: 100%;
+	height: 10%;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 100px;
+}

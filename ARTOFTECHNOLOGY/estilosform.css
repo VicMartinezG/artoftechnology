@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.form-register {
+  width: 500px;
+  height: 100%;
+  background: #62BD19;
+  padding: 30px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 4px;
+  font-family: 'Roboto',sans-serif;
+  color: white;
+}
+.form-register h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-register h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  width: 100%;
+  background-color: #807E70;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid black;
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+}
+
+.controls::placeholder{
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto',sans-serif;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+option{
+  padding: 10px;
+}
+
+.form-register label{
+  font-size: 16px;
+}
+
+.form-register .botons {
+  width: 60%;
+  background-color: #807E70;
+  border-radius: 15px;
+  padding: 10px 6px;
+  color: white;
+  margin: 16px 90px;
+  font-size: 18px;
+}
+
+.form-register .form-select{
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-register .form-control{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
